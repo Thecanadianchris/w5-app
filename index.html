@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persona Text Transformer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Persona Text Transformer</h1>
+    <p>Type a sentence, pick a persona, and see it transformed.</p>
+  </header>
+
+  <main>
+    <form id="transformer-form">
+      <label for="user-text">Your text</label>
+      <textarea id="user-text" rows="3" placeholder="Type or paste a sentence..." required></textarea>
+
+      <label for="persona-select">Transform into</label>
+      <select id="persona-select">
+        <option value="pirate">Pirate</option>
+        <option value="shakespearean">Shakespearean</option>
+        <option value="corporate">Corporate executive</option>
+        <option value="genz">Gen Z</option>
+        <option value="sports">Sports commentator</option>
+      </select>
+
+      <button type="submit" id="transform-btn">Transform</button>
+    </form>
+
+    <section id="result-panel" aria-live="polite">
+      <p>Your transformed text will appear here.</p>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
