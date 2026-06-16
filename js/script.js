@@ -25,7 +25,7 @@ form.addEventListener("submit", async (e) => {
 });
 
 async function transformText(text, persona) {
-  var response = await fetch("   ???????? API ????????     ", 
+  var response = await fetch("   ?????????? API ????????     ", 
 {   method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
