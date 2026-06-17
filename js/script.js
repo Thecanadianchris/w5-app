@@ -62,6 +62,7 @@ async function transformText(text, persona) {
 
 
 
+
 // Shake Effect ///
 const button = document.getElementById("shakeBtn");
 const image = document.getElementById("myImage");
