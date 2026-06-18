@@ -1,4 +1,3 @@
-
 var form = document.getElementById("transformer-form");
 var resultPanel = document.getElementById("result-panel");
 
@@ -39,8 +38,6 @@ form.addEventListener("submit", async (e) => {
     console.error(error);
   }
 });
-
-
 
 //////API SECTION 
 
